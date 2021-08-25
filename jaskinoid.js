@@ -25,3 +25,5 @@ class Cat {
 
 
 var garfield = new Cat("Garfield", "orange");
+garfield.sayHi();
+garfield.sayMeow();
