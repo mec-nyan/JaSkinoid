@@ -7,3 +7,18 @@ let arr = [1, 2, 3, 4];
 for (let i = 0; i < arr.length; ++i) {
   console.log(i);
 }
+
+class Cat {
+  constructor(name, color){
+    this.name = name;
+    this.color = color;
+  }
+
+  sayHi() {
+    return `Hi! I'm ${this.name} and I've got ${this.color} hair!`;
+  }
+
+  sayMeow() {
+    return "Meow!";
+  }
+}
