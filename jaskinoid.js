@@ -22,3 +22,6 @@ class Cat {
     return "Meow!";
   }
 }
+
+
+var garfield = new Cat("Garfield", "orange");
